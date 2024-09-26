@@ -12899,7 +12899,7 @@ Game.Launch=function()
 			str+='<a class="option neato" '+Game.clickStr+'="Game.gainLumps(10);">+10 lumps</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="for (var i in Game.Objects){Game.Objects[i].level=0;Game.Objects[i].onMinigame=false;Game.Objects[i].refresh();}Game.recalculateGains=1;">Reset levels</a>';
 			str+='<div class="line"></div>';
-			str+='<a class="option warning" '+Game.clickStr+'="Game.RuinTheFun(1);">Ruin The Fun</a>';
+			str+='<a class="option warning" '+Game.clickStr+'="Game.RuinTheFun(1);">EAT THE CHILDREN</a>';
 			str+='<a class="option warning" '+Game.clickStr+'="Game.SesameReset();">Wipe</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.GetAllDebugs();">All debugs</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.debugTimersOn=!Game.debugTimersOn;Game.OpenSesame();">Timers '+(Game.debugTimersOn?'On':'Off')+'</a><br>';
