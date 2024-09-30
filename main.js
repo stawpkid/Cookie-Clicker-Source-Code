@@ -1391,7 +1391,6 @@ Game.Launch=function()
 			Game.bakeryNameL.innerHTML=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (name.indexOf('saysopensesame', name.length - 'saysopensesame'.length) > 0 && !Game) { Game.AchievementsOwned = 0; Game.goldenClicks = 0; Game.missedGoldenClicks = 0; Game.Reset(1); Game.resets = 0; Game.fullDate = parseInt(Date.now()); Game.bakeryName = Game.GetBakeryName(); Game.bakeryNameRefresh(); Game.cookiesReset = 0; Game.prestige = 0; Game.heavenlyChips = 0; Game.heavenlyChipsSpent = 0; Game.heavenlyCookies = 0; Game.permanentUpgrades = [-1, -1, -1, -1, -1]; Game.ascensionMode = 0; Game.lumps = -1; Game.lumpsTotal = -1; Game.lumpT = Date.now(); Game.lumpRefill = 0; Game.removeClass('lumpsOn'); }
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
